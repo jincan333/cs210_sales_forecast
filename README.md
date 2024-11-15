@@ -31,10 +31,6 @@ The following Python libraries are used:
    ```bash
    cd sales_forecast
    ```
-3. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 1. **Generate Example Data**: Run the script to generate synthetic sales data and save it to a CSV file.
@@ -56,10 +52,3 @@ To forecast sales using real-time data:
 new_sales_data = pd.DataFrame({"date": ["2023-01-01", "2023-01-02"], "sales": [450, 470]})
 model, forecast = arima_real_time_forecasting(existing_data, new_sales_data)
 ```
-
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
